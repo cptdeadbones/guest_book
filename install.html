@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<script src="javascript/verify_form.js"></script>
+	<meta name="viewport" content="width=768px, munumum-scale=1.0, maximum-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="css/guest_book_styles.css"/>
+	
+	<div id="install_form" class="form">
+	<form id="install_form" name="form" method="post" action="php/install.php">
+
+		<h1 class="install_form">Install Guest Book</h1>
+
+		<label class="install_form">Host Name</label>
+		<input class="install_form" type="text" name="host" id="host" value="localhost"/>
+
+		<label class="install_form">User Name</label>
+		<input class="install_form" type="text" name="user_name" id="user_name"/>
+
+		<label class="install_form">Password</label>
+		<input class="install_form" type="password" name="password" id="password" />
+
+		<label class="install_form">Database Name</label>
+		<input class="install_form" type="text" name="db_name" id="db_name" />
+		
+		<label class="install_form">List Sources*</label>
+		<input class="install_form" type="textarea" name="sources" id="sources" />
+		
+		<label class="install_form">List Reasons*</label>
+		<input class="install_form" type="textarea" name="reasons" id="reasons" />
+
+	<button class="install_form" type="submit" value="Install" onclick="javascript:return validateInstall();">Install</button>
+
+	<label class="install_form_sub"> * Comma (,) separated values</label>
+
+	</form>
+	</div>
+
+	<iframe class="footer" src="footer.html"></iframe>	
+
+
+</html>

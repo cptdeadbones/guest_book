@@ -1,0 +1,495 @@
+
+/*
+
+	0. install.html
+	1. index.html
+	2. form.html
+	3. thanks.html
+	4. backend.html
+	5. php/visits.php
+	6. php/edit_visit.php
+	7. footer.html
+
+*/
+
+/********************************
+
+0. install.html
+
+********************************/
+
+h1.install_form {
+	color: #000;
+	font: 32px/100% Script, serif;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+	
+div.install_form {
+	margin: 0 auto;
+	width: 400px;
+	padding: 14px;
+}
+
+
+label.install_form {
+	display: block;
+	font-weight: bold;
+	text-align: right;
+	width: 140px;
+	float: left;
+	padding-top: 5px;
+}
+
+label.install_form_sub {
+	display: block;
+	color: red;
+	text-align: right;
+	width: auto;
+	float: left;
+	padding-top: 10px;
+}
+
+
+input.install_form {
+	float: left;
+	font-size: 12px;
+	padding: 4px 2px;
+	border: solid 1px #aacfe4;
+	width: 200px;
+	margin: 2px 0 20px 10px;
+}
+
+select.install_form {
+	width: 75%;
+	padding-top: 10px;
+	margin:10px;
+	margin-left: 15% ;
+  	margin-right: auto ;
+}
+	
+
+
+button.install_form{
+	background: #25A6E1;
+	background: -moz-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#25A6E1),color-stop(100%,#188BC0));
+	background: -webkit-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: -o-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: -ms-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#25A6E1',endColorstr='#188BC0',GradientType=0);
+	padding: .5em 2em .55em;
+	color: #fff;
+	font-family: 'Helvetica Neue',sans-serif;
+	text-align: center;
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: bold;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 1px solid #1A87B9;
+	width: 125px;
+	height: 31px;
+	clear: both;
+	margin-left: 150px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+
+
+/********************************
+
+1. index.html
+
+********************************/
+
+h1.index {
+	color: #000;
+	font: 80px/100% Script, serif;
+	padding-top: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+button.index{
+	background: #25A6E1;
+	background: -moz-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#25A6E1),color-stop(100%,#188BC0));
+	background: -webkit-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: -o-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: -ms-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#25A6E1',endColorstr='#188BC0',GradientType=0);
+	padding: .5em 2em .55em;
+	color: #fff;
+	font-family: 'Helvetica Neue',sans-serif;
+	font: 42px/100% Script, serif;;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 1px solid #1a87b9;
+}
+
+h2.install_form {
+	color: #000;
+	font: 52px/100% Script, serif;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 50px;
+}
+
+/********************************
+
+2. form.html
+
+********************************/
+
+h1.form {
+	color: #000;
+	font: 32px/100% Script, serif;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+	
+div.form {
+	margin: 0 auto;
+	width: 400px;
+	padding: 14px;
+}
+
+
+label.form {
+	display: block;
+	font-weight: bold;
+	text-align: right;
+	width: 140px;
+	float: left;
+	padding-top: 5px;
+}
+
+
+input.form {
+	float: left;
+	font-size: 12px;
+	padding: 4px 2px;
+	border: solid 1px #aacfe4;
+	width: 200px;
+	margin: 2px 0 20px 10px;
+}
+
+select.form {
+	width: 75%;
+	padding-top: 10px;
+	margin:10px;
+	margin-left: 15% ;
+  	margin-right: auto ;
+}
+	
+
+
+button.form{
+	background: #25A6E1;
+	background: -moz-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#25A6E1),color-stop(100%,#188BC0));
+	background: -webkit-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: -o-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: -ms-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#25A6E1',endColorstr='#188BC0',GradientType=0);
+	padding: .5em 2em .55em;
+	color: #fff;
+	font-family: 'Helvetica Neue',sans-serif;
+	text-align: center;
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: bold;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 1px solid #1A87B9;
+	width: 125px;
+	height: 31px;
+	clear: both;
+	margin-left: 150px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+
+/********************************
+
+3. thanks.html
+
+********************************/
+
+h1.thanks {
+	color: #000;
+	font: 52px/100% Script, serif;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 50px;
+}
+	
+	
+/********************************
+
+4. backend.html
+
+********************************/
+
+h1.backend {
+	color: #000;
+	font: 32px/100% Script, serif;
+	padding-top: 0px;
+	font-weight: bold;
+	text-align: center;
+	}
+	
+div.backend {
+	margin: 0 auto;
+	width: 400px;
+	padding: 14px;
+}
+
+button.backend{
+	background: #25A6E1;
+	background: -moz-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#25A6E1),color-stop(100%,#188BC0));
+	background: -webkit-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: -o-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: -ms-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#25A6E1',endColorstr='#188BC0',GradientType=0);
+	padding: .5em 2em .55em;
+	color: #fff;
+	font-family: 'Helvetica Neue',sans-serif;
+	text-align: center;
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: bold;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 1px solid #1a87b9;
+	width: 125px;
+	height: 61px;
+	clear: both;
+	margin-left: 150px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+/********************************
+
+5. php/visits.php
+
+********************************/
+
+h1.visits {
+	color: #000;
+	font: 32px/100% Script, serif;
+	padding-top: 0px;
+	font-weight: bold;
+	text-align: center;
+	}
+	
+div.visits {
+	margin: 0 auto;
+	width: 400px;
+	padding: 14px;
+}
+
+table.sortable {
+	font-family: verdana,arial,sans-serif;
+	font-size: 11px;
+	color: #333333;
+	border-width: 1px;
+	border-color: #25A6E1;
+	border-collapse: collapse;
+	width:100%;
+}
+
+table.sortable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #25A6E1;
+	text-decoration: underline;
+}
+
+table.sortable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #25A6E1;
+	text-align: center;
+}
+
+table.sortable tbody tr:nth-child(odd) td {
+	background-color: #25A6E1;
+	color: #fff;
+}
+
+table.sortable tbody tr:nth-child(even) td {
+	background-color: #ffffff;
+}
+
+input.search {
+	float: left;
+	font-size: 12px;
+	padding: 4px 2px;
+	border: solid 1px #aacfe4;
+	width: 200px;
+	margin: 2px 0 20px 10px;
+	font-style:italic;
+	border-radius: 15px;
+}
+
+/********************************
+
+5. php/edit_visit.php
+
+********************************/
+
+h1.edit_visit {
+	color: #000;
+	font: 32px/100% Script, serif;
+	padding-top: 0px;
+	font-weight: bold;
+	text-align: center;
+	}
+	
+div.edit_visit {
+	margin: 0 auto;
+	width: 500px;
+	padding: 14px;
+}
+
+div.edit_visit_buttons {
+	margin: 0 auto;
+	width: 500px;
+	padding: 14px;
+	text-align: center;
+}
+
+table.edit_visit {
+	font-family: verdana,arial,sans-serif;
+	font-size: 11px;
+	color: #333333;
+	border-width: 1px;
+	border-color: #25A6E1;
+	border-collapse: collapse;
+	width:100%;
+}
+
+table.edit_visit th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #25A6E1;
+	text-decoration: underline;
+}
+
+table.edit_visit td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #25A6E1;
+	text-align: center;
+}
+
+table.edit_visit tbody tr:nth-child(odd) td {
+	background-color: #25A6E1;
+	color: #fff;
+}
+
+table.edit_visit tbody tr:nth-child(even) td {
+	background-color: #ffffff;
+}
+
+textarea.edit_visit {
+	width:75%;
+	border-radius:0px;
+	padding:2px;
+	vertical-align:top;
+	resize: none;
+	overflow: auto;
+	height:75%;
+}
+
+select.edit_visit {
+  width:75%;
+}
+
+button.edit_visit{
+	background: #25A6E1;
+	background: -moz-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#25A6E1),color-stop(100%,#188BC0));
+	background: -webkit-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: -o-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: -ms-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#25A6E1',endColorstr='#188BC0',GradientType=0);
+	padding: .5em .5em .5em;
+	color: #fff;
+	font-family: 'Helvetica Neue',sans-serif;
+	font: 16px/100% Script, serif;;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 1px solid #1a87b9;
+}
+
+input.edit_visit{
+	background: #25A6E1;
+	background: -moz-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#25A6E1),color-stop(100%,#188BC0));
+	background: -webkit-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: -o-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: -ms-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background: linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#25A6E1',endColorstr='#188BC0',GradientType=0);
+	padding: .5em .5em .5em;
+	color: #fff;
+	font-family: 'Helvetica Neue',sans-serif;
+	font: 16px/100% Script, serif;;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 1px solid #1a87b9;
+}
+
+label.edit_visit {
+	color: #000;
+} 
+
+/********************************
+
+6. footer.html
+
+********************************/
+
+footer.foot {
+      Position: absolute;
+      Width: 100%;
+      Bottom: 0;
+      Height: 75px;  /* This value is the height of your footer */
+}
+
+iframe.footer {
+	width: 60%; 
+	height: 20%; 
+	border: 0;
+	margin-left:15%;
+	clear: both;
+	
+	margin-top: 1em;
+}
+
