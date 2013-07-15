@@ -3,7 +3,7 @@ Guest Book
 
 A simple guest book (visitor log) implementation in php.
 
-This project was coded by CptDeadBones @ www.TheLivingPearl.com
+This project was coded by CptDeadBones @ www.TheLivingPearl.com 
 
 Information 
 ============
