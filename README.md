@@ -3,12 +3,12 @@ Guest Book
 
 A simple guest book (visitor log) implementation in php.
 
-This project was coded by CptDeadBones @ TheLivingPearl.com
+This project was coded by CptDeadBones @ www.TheLivingPearl.com
 
 Information 
 ============
 
-A detailed description, examples and explanation of the code can be found here:
+A detailed description, examples and explanation of the code can be found here: http://thelivingpearl.com/2013/07/15/the-guest-book-problem/
 
 Demo 
 =====
